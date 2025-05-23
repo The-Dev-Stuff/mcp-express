@@ -1,0 +1,39 @@
+{
+  "name": "mcp-express",
+  "version": "1.0.0",
+  "description": "An MCP client and server implementation with Express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod 755 build/server.js",
+    "start": "node build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build"
+  ],
+  "bin": {
+    "demo": "./build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Dev-Stuff/mcp-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Dev-Stuff/mcp-express/issues"
+  },
+  "homepage": "https://github.com/The-Dev-Stuff/mcp-express#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "express": "^5.1.0",
+    "zod": "^3.25.23"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
