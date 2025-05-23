@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import transport from '../providers/mcp-transport.js';
+import transport from '../mcp/mcp-transport.js';
 
 export const handlePostRequest = async (req: Request, res: Response) => {
   console.log('Received MCP request:', req.body);

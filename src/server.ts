@@ -1,5 +1,5 @@
 import express from 'express';
-import { setupServer } from './providers/mcp-server.js';
+import { setupServer } from './mcp/mcp-server.js';
 import mcpRoutes from './routes/mcp-routes.js';
 
 const app = express();
