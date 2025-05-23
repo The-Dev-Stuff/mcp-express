@@ -10,7 +10,8 @@ To learn more about MCP, visit the [official documentation](https://modelcontext
 
 ## Key differences from a standard server
 The project structure is pretty standard using a server, routes and services.
-The key thing to note is that we must expose a **POST** `/mcp` endpoint that will be used by the MCP inspector to communicate with the server and we must allow the tranport to handle these requests.
+
+The key thing to note is that we must expose a **POST** `/mcp` endpoint that will be used by the MCP inspector to communicate with the server and we must allow the transport to handle these requests.
 
 ## Setup for local development
 
